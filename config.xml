@@ -3,7 +3,6 @@
 	<name>OPT</name>
 	<description>OPT APP</description>
 	<author>EwebCraft</author>
-	<!-- Customize your app and platform with the preference element. -->
 	
 	<preference name="permissions" value="none"/>
 	
