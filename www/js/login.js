@@ -119,7 +119,7 @@ $(document).ready(function() {
 						}
 
 						if (data.JS) {
-							eval(data.JS);
+							//eval(data.JS);
 						}
 					},
 
