@@ -63,6 +63,7 @@ function QRonSuccess(result){
 		return false; 	
 	}				 
 	var code = result.text;
+	$('#vehicle_vin').val(code);
 	alert(code);
 }
 function QRFailure(message){
@@ -72,13 +73,13 @@ function QRFailure(message){
 
 $(document).ready(function() {
 	
-	$('#btnBarcode').on('click',function(){
+	$('#btnBarcode').on('click',function(e){
 		try{
 			cordova.plugins.barcodeScanner.scan(QRonSuccess, QRFailure);
 		}catch(err) {
 			$('#messagebox p').html('Scanner Fails!');
 		}
-		
+		e.preventDefault();
 	});
 	
 
