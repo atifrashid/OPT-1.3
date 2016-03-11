@@ -64,7 +64,7 @@ function QRonSuccess(result){
 	}				 
 	var code = result.text;
 	$('#vehicle_vin').val(code);
-	alert(code);
+	//alert(code);
 }
 function QRFailure(message){
 	$('#messagebox p').html('Scanner Fails!');
