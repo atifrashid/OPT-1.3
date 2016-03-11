@@ -103,7 +103,8 @@ $(document).ready(function () {
 
 	
 	$(".date-picker").datepicker({
-        format: 'yyyy-mm-dd' 
+        format: 'yyyy-mm-dd',
+		  autoclose: true 
    });
 	
 	$(".date-picker").on("change", function () {
