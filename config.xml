@@ -43,6 +43,10 @@
     </platform>
     <engine name="android" spec="~4.1.1" />
 	
+	<access origin="*" />
+	<allow-intent href="*" />
+	<allow-navigation href="http://*/*" />
+	<allow-navigation href="https://*/*" />
+	<allow-navigation href="data:*" />
 	
-	<accesss origin="*" />
 </widget>
