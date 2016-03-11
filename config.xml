@@ -47,6 +47,7 @@
 	<allow-intent href="*" />
 	<allow-navigation href="http://*/*" />
 	<allow-navigation href="https://*/*" />
+	<allow-navigation href="http:///opti-coat.net/*" />
 	<allow-navigation href="data:*" />
 	
 </widget>

@@ -57,7 +57,30 @@ $(document).on('pagebeforeshow', '#pagePrivacy', function() {
 });
 /**/
 
+function QRonSuccess(result){
+	
+	if( result.cancelled == true ){
+		return false; 	
+	}				 
+	var code = result.text;
+	alert(code);
+}
+function QRFailure(message){
+	$('#messagebox p').html('Scanner Fails!');
+}
+
+
 $(document).ready(function() {
+	
+	$('#btnBarcode').on('click',function(){
+		try{
+			cordova.plugins.barcodeScanner.scan(QRonSuccess, QRFailure);
+		}catch(err) {
+			$('#messagebox p').html('Scanner Fails!');
+		}
+		
+	});
+	
 
 	$("#submit").click(function() {
 		//alert('sss');
