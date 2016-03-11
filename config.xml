@@ -7,6 +7,8 @@
 	
 	<preference name="permissions" value="none"/>
 	
+	<gap:plugin name="phonegap-plugin-barcodescanner" source="npm" />
+	<plugin name="cordova-plugin-whitelist" spec="1"/>
 	
 	<icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
