@@ -1,6 +1,11 @@
 b,strong
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-size:18px;
+}
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper
+{
+	text-shadow:none !important;
 }
 .ui-checkbox label.error{ font-size:70% !important}
 .ui-radio label.error{ font-size:70% !important}
@@ -24,7 +29,7 @@ label.error {
 }
 .backgroung ,#messagebox{
 	position:relative;margin:0;-webkit-text-size-adjust:none;min-height:506px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	background:#293e5a url(../images/main-bg-big.png) no-repeat !important; 
 	background-size:100% !important;-webkit-touch-callout:none; background-size:cover;
 }
@@ -66,12 +71,12 @@ label.error {
 	left: 0px;
 	position: relative;
 	right: 20px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .ui-input-text input, .ui-input-search input,.ui-select .ui-btn select
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	padding:0px 10px;
 }
 .space
@@ -86,7 +91,7 @@ label.error {
 }
 .ui-header a
 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 input[type=checkbox], input[type=radio]
 {
