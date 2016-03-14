@@ -1,7 +1,10 @@
 b,strong
 {
-	font-family: 'Open Sans', sans-serif;
 	font-size:18px;
+}
+body
+{
+	font-family: 'Open Sans', sans-serif;
 }
 .ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper
 {
@@ -29,7 +32,6 @@ label.error {
 }
 .backgroung ,#messagebox{
 	position:relative;margin:0;-webkit-text-size-adjust:none;min-height:506px;
-	font-family: 'Open Sans', sans-serif;
 	background:#293e5a url(../images/main-bg-big.png) no-repeat !important; 
 	background-size:100% !important;-webkit-touch-callout:none; background-size:cover;
 }
@@ -71,12 +73,10 @@ label.error {
 	left: 0px;
 	position: relative;
 	right: 20px;
-	font-family: 'Open Sans', sans-serif;
 }
 
 .ui-input-text input, .ui-input-search input,.ui-select .ui-btn select
 {
-	font-family: 'Open Sans', sans-serif;
 	padding:0px 10px;
 }
 .space
@@ -91,7 +91,6 @@ label.error {
 }
 .ui-header a
 {
-	font-family: 'Open Sans', sans-serif;
 }
 input[type=checkbox], input[type=radio]
 {
