@@ -1,17 +1,18 @@
-b,strong
-{
-	font-size:18px;
+b, strong {
+	font-size: 18px;
 }
-body
-{
+body {
 	font-family: 'Open Sans', sans-serif;
 }
-.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper
-{
-	text-shadow:none !important;
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+	/*text-shadow: none !important;*/
 }
-.ui-checkbox label.error{ font-size:70% !important}
-.ui-radio label.error{ font-size:70% !important}
+.ui-checkbox label.error {
+	font-size: 70% !important
+}
+.ui-radio label.error {
+	font-size: 70% !important
+}
 .ui-btn-inner label.error {
 	position: absolute;
 	right: 20px;
@@ -19,7 +20,8 @@ body
 	float: right;
 	color: red;
 	vertical-align: top;
-	z-index: 999; font-size:70%;
+	z-index: 999;
+	font-size: 70%;
 }
 label.error {
 	position: absolute;
@@ -28,17 +30,25 @@ label.error {
 	float: right;
 	color: red;
 	vertical-align: top;
-	z-index: 999;  font-size:70%;
+	z-index: 999;
+	font-size: 70%;
 }
-.backgroung ,#messagebox{
-	position:relative;margin:0;-webkit-text-size-adjust:none;min-height:506px;
-	background:#293e5a url(../images/main-bg-big.png) no-repeat !important; 
-	background-size:100% !important;-webkit-touch-callout:none; background-size:cover;
+input.error, select.error {
+	box-shadow: inset 0px 0px 12px 0px rgb(255, 47, 47);
+	color: #8F0002;
 }
-
-#car
-{
-	text-align:center;
+.backgroung, #messagebox {
+	position: relative;
+	margin: 0;
+	-webkit-text-size-adjust: none;
+	min-height: 506px;
+	background: #293e5a url(../images/main-bg-big.png) no-repeat !important;
+	background-size: 100% !important;
+	-webkit-touch-callout: none;
+	background-size: cover;
+}
+#car {
+	text-align: center;
 }
 #enter {
 	position: absolute;
@@ -56,10 +66,9 @@ label.error {
 	text-indent: -5000em;
 	outline: 0;
 }
-#site-logo 
-{
+#site-logo {
 	margin: 0 auto;
-	text-align:center;
+	text-align: center;
 	padding-top: 80px;
 }
 #site-logo1 {
@@ -74,110 +83,88 @@ label.error {
 	position: relative;
 	right: 20px;
 }
-
-.ui-input-text input, .ui-input-search input,.ui-select .ui-btn select
-{
-	padding:0px 10px;
+.ui-input-text input, .ui-input-search input, .ui-select .ui-btn select {
+	padding: 0px 10px;
 }
-.space
-{
-	height:42px;
+.space {
+	height: 42px;
 }
 /*************** form ******************/
 
-.ui-title
-{
-	font-size:17px !important;
+.ui-title {
+	font-size: 17px !important;
 }
-.ui-header a
-{
+.ui-header a {
 }
-input[type=checkbox], input[type=radio]
-{
-	margin:0px !important;
+input[type=checkbox], input[type=radio] {
+	margin: 0px !important;
 }
-
 /****************** dakepicker **************/
-.datepicker table
-{
-	width:100%;
+.datepicker table {
+	width: 100%;
 }
-.datepicker,.datepicker-dropdown,.dropdown-menu,.datepicker-orient-left,.datepicker-orient-top
-{
-	left:15px;
-	right:15px;
+.datepicker, .datepicker-dropdown, .dropdown-menu, .datepicker-orient-left, .datepicker-orient-top {
+	left: 15px;
+	right: 15px;
 }
-.ui-hide-label i.fa
-{
-	color:#ffffff;
-	font-size:20px;
+.ui-hide-label i.fa {
+	color: #ffffff;
+	font-size: 20px;
+}
+#tbl_addwarr, #tbl_addwarr2, #tbl_pg {
+	background: #3b5a79;
+	border-radius: 4px;
+	padding: 10px;
+}
+.ui-block-a {
+	width: 73% !important;
+	margin-right: 12px !important;
+}
+.ui-block-b {
+	width: 26% !important;
+}
+.ui-block-b button {
+	background: #373737 !important;
+	border-color: #373737 !important;
+	padding: 7.5px 0px;
+}
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+	text-shadow: 0px 0px 8px rgba(239, 239, 239, 0.86)
 }
 
-#tbl_addwarr,#tbl_addwarr2,#tbl_pg
-{
-	background:#3b5a79;
-	border-radius:4px;
-	padding:10px;
+@media (max-width:767px) {
+.ui-block-a {
+	width: 80% !important;
+	margin-right: 6px !important;
 }
-
-.ui-block-a
-{
-	width:73% !important;
-	margin-right:12px !important;
+.ui-block-b {
+	width: 17% !important;
 }
-.ui-block-b
-{
-	width:26% !important;
+.ui-block-b button {
+	background: #373737 !important;
+	border-color: #373737 !important;
+	padding: 7.5px 0px;
 }
-	.ui-block-b button
-	{
-		background:#373737 !important;
-		border-color:#373737 !important;
-		padding:7.5px 0px;
-	}
-
-
-@media (max-width:767px)
-{
-	.ui-block-a
-{
-	width:80% !important;
-	margin-right:6px !important;
-}
-.ui-block-b
-{
-	width:17% !important;
-}
-	.ui-block-b button
-	{
-		background:#373737 !important;
-		border-color:#373737 !important;
-		padding:7.5px 0px;
-	}
-	label.error 
-	{
+label.error {
 	position: absolute;
 	right: 20px;
 	bottom: -4px;
 	float: right;
 	color: red;
 	vertical-align: top;
-	z-index: 999;  font-size:70%;
+	z-index: 999;
+	font-size: 70%;
 }
-.ui-input-text input::-moz-placeholder, .ui-input-search input::-moz-placeholder, textarea.ui-input-text::-moz-placeholder
-{
-	font-size:12px;
+.ui-input-text input::-moz-placeholder, .ui-input-search input::-moz-placeholder, textarea.ui-input-text::-moz-placeholder {
+ font-size:12px;
 }
-.ui-input-text input::-webkit-input-placeholder, .ui-input-search input::-webkit-input-placeholder, textarea.ui-input-text::-webkit-input-placeholder
-{
-	font-size:12px;
+.ui-input-text input::-webkit-input-placeholder, .ui-input-search input::-webkit-input-placeholder, textarea.ui-input-text::-webkit-input-placeholder {
+ font-size:12px;
 }
-.ui-input-text input:-moz-placeholder, .ui-input-search input:-moz-placeholder, textarea.ui-input-text:-moz-placeholder
-{
-	font-size:12px;
+.ui-input-text input:-moz-placeholder, .ui-input-search input:-moz-placeholder, textarea.ui-input-text:-moz-placeholder {
+ font-size:12px;
 }
-.ui-input-text input:-ms-input-placeholder, .ui-input-search input:-ms-input-placeholder, textarea.ui-input-text:-ms-input-placeholder
-{
-	font-size:12px;
+.ui-input-text input:-ms-input-placeholder, .ui-input-search input:-ms-input-placeholder, textarea.ui-input-text:-ms-input-placeholder {
+ font-size:12px;
 }
 }
