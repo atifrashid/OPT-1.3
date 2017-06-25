@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<widget id="com.opt.warreg" version="116" versionCode="1.1.6" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.opt.warreg" version="130" versionCode="1.3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
 
 	<name>OPT</name>
 	<description>OPT APP</description>
@@ -9,8 +9,7 @@
 	
 	<!--<gap:plugin name="phonegap-plugin-barcodescanner" source="npm" />-->
 	<plugin name="amscomp-plugin-barcodescanner" source="npm" />
-	<plugin name="cordova-plugin-whitelist" spec="1"/>
-	
+	<plugin name="cordova-plugin-whitelist" />
 	
 	
 	<icon src="icon.png"/>
@@ -32,7 +31,7 @@
 	<allow-intent href="*" />
 	<allow-navigation href="http://*/*" />
 	<allow-navigation href="https://*/*" />
-	<allow-navigation href="http:///opti-coat.net/*" />
+	<allow-navigation href="http:///opticoat.com/*" />
 	<allow-navigation href="data:*" />
 	
 </widget>
