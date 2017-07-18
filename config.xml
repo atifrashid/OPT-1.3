@@ -26,6 +26,10 @@
 	<platform name="android" />
 	<platform name="winphone" />
 	
+	<gap:config-file platform="ios" parent="NSCameraUsageDescription" overwrite="true">
+	<string>We are using the Camera to scan vehicle VIN from barcode</string>
+	</gap:config-file>
+	
 	<access origin="*" />
 	<allow-intent href="*" />
 	<allow-navigation href="http://*/*" />
